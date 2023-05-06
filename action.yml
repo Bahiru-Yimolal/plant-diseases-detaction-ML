@@ -1,0 +1,29 @@
+name: 'radadiyamohit81'
+description: 'Finding Disease in plant("Tomato_Disease","Apple_Disease")'
+author: 'Mohit Radadiya'
+inputs:
+  action:
+    description: open ".ipynb" file and go with steps
+    required: true
+  directory:
+    description: Plant_Disease_Detaction
+    required: true
+
+jobs:
+  build:
+    runs-on: window 8.1
+    steps:
+    - uses: google colab | jupyter notebook
+
+    - name: Download dataset name was "PlantVillage"
+      run: mv (PlantVillage) this folder to main directory where you want to run
+
+    - name: Download ".ipynb" file
+      run: run on jupyter notebook or colab 
+    
+    - name: put all file in my repository to your master directory
+      run: execute ".ipynb" file
+
+outputs:
+    time: #Depends on your hardware
+    id: 'Plant Disease Detaction_ID'
